@@ -64,7 +64,7 @@ const WorldTourSite = () => {
             <div className="relative w-full max-w-4xl">
               <video
                 ref={videoRef}
-                src="./video.mp4" // 動画パス
+                src="https://s17.aconvert.com/convert/p3r68-cdx67/934oz-59hd3.mp4" // 動画パス
                 className="w-full h-auto rounded-lg shadow-xl object-cover max-h-[80vh]" // レスポンシブスタイル
                 controls={false} // カスタムボタンを使用
               />
@@ -82,7 +82,7 @@ const WorldTourSite = () => {
               <h3 className="text-2xl font-bold">🗼 1St. Tokyo</h3>
               <p className="mt-2 opacity-70 my-2">This is the first place.</p>
               <img
-                src='./tokyo.png'
+                src={`${process.env.PUBLIC_URL}/tokyo.png`}
                 alt='tokyo_image'
                 className="w-24 h-24 object-cover mx-auto"
                 />
@@ -91,7 +91,7 @@ const WorldTourSite = () => {
               <h3 className="text-2xl font-bold">🚣‍♀️ 2nd. Yokosuka</h3>
               <p className="mt-2 opacity-70 my-2">Here is Fune.</p>
               <img
-                src='./yokosuka.png'
+                src={`${process.env.PUBLIC_URL}/yokosuka.png`}
                 alt='yokosuka_png'
                 className="w-24 h-24 object-cover mx-auto"
               />
@@ -100,7 +100,7 @@ const WorldTourSite = () => {
               <h3 className="text-2xl font-bold">🍁 3rd. Canada</h3>
               <p className="mt-2 opacity-70 my-2">KOKO ORENOMACHI.</p>
               <img
-                src='./canada.png'
+                src={`${process.env.PUBLIC_URL}/canada.png`}
                 alt='canada_png'
                 className="w-24 h-24 object-cover mx-auto"
               />
