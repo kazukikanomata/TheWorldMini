@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TheWorldMini/static/css/main.a92ef383.css",
+    "main.js": "/TheWorldMini/static/js/main.70b61aee.js",
+    "static/js/453.1cc3b746.chunk.js": "/TheWorldMini/static/js/453.1cc3b746.chunk.js",
+    "index.html": "/TheWorldMini/index.html",
+    "main.a92ef383.css.map": "/TheWorldMini/static/css/main.a92ef383.css.map",
+    "main.70b61aee.js.map": "/TheWorldMini/static/js/main.70b61aee.js.map",
+    "453.1cc3b746.chunk.js.map": "/TheWorldMini/static/js/453.1cc3b746.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a92ef383.css",
+    "static/js/main.70b61aee.js"
+  ]
+}
